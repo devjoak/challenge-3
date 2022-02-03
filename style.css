@@ -1,0 +1,147 @@
+.general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 100px 30px;
+    padding-right: ;
+
+
+}
+body {
+    background-image: 
+    linear-gradient(to bottom, rgba(255, 122, 122, 0.7),rgba(255, 122, 122, 0.7) ),
+    url(./images/bg-intro-desktop.png);
+
+}
+.overall {
+    width: 50%;
+
+}
+.topic {
+    font-size: 40px;
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(253, 244, 244);
+    line-height: 40px;
+}
+.paragraph {
+    font-size: 15px;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(253, 248, 248);
+    line-height: 20px;
+    
+}
+.midway {
+    width: 50%;
+}
+.outside{
+    margin-bottom: 20px;
+}
+.inside {
+    width: 370px;
+    height: 40px;
+    border-radius: 10px;
+    background:  hsl(248, 81%, 45%);
+    border: none;
+    box-shadow: 0px 5px 5px 0px rgb(97, 17, 30);
+
+
+}
+.normal {
+    color: white;
+}
+.step-up {
+    width: 310px;
+    border-radius: 10px;
+    background: hsl(252, 33%, 97%);
+    padding: 30px 30px 30px;
+}
+.series {
+}
+.second {
+    display: block;
+    margin-bottom: 30px;
+}
+.first {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.mini {
+    float: right;
+    font-size: 10px;
+    color: rgba(231, 21, 14, 0.556);
+}
+.parallel {
+
+}
+.sub {
+    width: 310px;
+    height: 40px;
+    border-radius: 5px;
+    background: hsl(150, 95%, 34%);
+    color: rgb(252, 247, 252);
+    border: none;
+}
+.moment {
+    font-size: 10px;
+}
+.term {
+    color: rgba(231, 21, 14, 0.556);
+}
+.first::placeholder {
+    color: grey;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+@media only screen and ( max-width: 375px) {
+    .general {
+        flex-direction: column;
+        margin: 20px;
+    }
+    .overall {
+        display: flex;
+        width: 100%;
+        padding: 0px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topic {
+        width: 60%;
+        font-size: 20px;
+        line-height: 20px;
+        /* text-align: center; */
+
+    }
+    .paragraph {
+        width: 80%;
+        text-align: center;
+    }
+    .inside {
+        width: 310px;
+        height: 60px;
+        border: none;
+    }
+    .step-up {
+        width: 250px;
+        /* padding: 30px 30px 30px; */
+    }
+    .first {
+        width: 235px;
+        height: 30px;
+    }
+    .midway {
+        width: 100%;
+    }
+    .sub {
+        width: 245px;
+        height: 40px;
+    }
+
+    
+    
+}
+
